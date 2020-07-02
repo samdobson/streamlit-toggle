@@ -8,7 +8,7 @@ This will be published to PyPI once Streamlit 0.63.0 is released.
 
 ## Usage
 
-```
+```python
 import streamlit as st
 from streamlit_toggle import st_toggleswitch
 
