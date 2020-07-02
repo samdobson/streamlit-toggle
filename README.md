@@ -1,5 +1,7 @@
 # A toggle switch widget for Streamlit
 
+![Toggle Switch](screenshot.png?raw=true "Streamlit Toggle Switch")
+
 ## Installation
 
 Currently usable for Streamlit custom components beta testers only.
