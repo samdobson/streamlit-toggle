@@ -2,12 +2,6 @@
 
 ![Toggle Switch](screenshot.png?raw=true "Streamlit Toggle Switch")
 
-## Installation
-
-Currently usable for Streamlit custom components beta testers only.
-
-This will be published to PyPI once Streamlit 0.63.0 is released.
-
 ## Usage
 
 ```python
