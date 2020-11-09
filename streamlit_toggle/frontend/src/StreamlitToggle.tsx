@@ -29,9 +29,10 @@ class StreamlitToggle extends StreamlitComponentBase<State> {
     )
   }
 
-  private onChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
-    this.setState({ value: e.currentTarget.checked }, () => {
-      Streamlit.setComponentValue(e.currentTarget.checked)
+private onChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
+    const isChecked = e.currentTarget.checked
+    this.setState({ value: isChecked }, () => {
+      Streamlit.setComponentValue(isChecked)
     })
   }
 }
